@@ -1,0 +1,19 @@
+body{
+    background-image: url("images/background.jpg");
+    background-size: cover;
+}
+ul{
+    background-color: rgba(255, 255, 255,0.5);
+    padding: 1rem;
+    list-style-type: none;
+    border-radius: 10px;
+    font-size: x-large;
+}
+li a{
+    color: rgb(66, 47, 231);
+    transition: ease-in-out 1ms;
+}
+li a:hover{
+    color: rgb(98, 83, 236);
+    transform: scale(2);
+}
